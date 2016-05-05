@@ -1,3 +1,8 @@
 Git  a version control system.
 Git  free software.
-heguojiu
+//heguojiu
+#include <stdio.h>
+int main(void)
+{
+  printf("hello world \n");
+}
