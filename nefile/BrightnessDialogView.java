@@ -29,6 +29,7 @@ public class BrightnessDialogView implements OnSeekBarChangeListener, OnCheckedC
 	private boolean curMode;
 	public BrightnessDialogView(Context context){
 		dialogContext = context;
+		log.d("hell0","nihao");
 		brightnessLayout = (RelativeLayout) LayoutInflater.
 				from(dialogContext).inflate(R.layout.brightness_dialogview, null);
 		autoCheckBox = (CheckBox) brightnessLayout.findViewById(R.id.brightnessBox);
