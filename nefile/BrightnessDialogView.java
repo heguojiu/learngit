@@ -45,6 +45,10 @@ public class BrightnessDialogView implements OnSeekBarChangeListener, OnCheckedC
 		}
 	}
 	public void brightnessDialog(){
+		log.d("hell0","nihao");
+		
+		log.d("hell0","nihao");
+		log.d("hell0","nihao");
 		brightnessSeekBar.setMax(maxBrightness-minBrightness);
 		brightnessSeekBar.setProgress(curBrightness-minBrightness);
 		brightnessSeekBar.setOnSeekBarChangeListener(this);
